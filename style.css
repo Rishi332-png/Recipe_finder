@@ -1,0 +1,215 @@
+.contactpage{
+background-color: rgb(255, 196, 0);
+}
+
+body{
+background-color: rgb(255, 140, 0);
+color: rgb(226, 228, 230);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin: 0px;
+padding: 0px;
+}
+#threeoptions{
+text-decoration: none;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-left: 12.5%;
+margin-top: 2.5%;
+color: rgb(226, 228, 230);
+
+}
+#webpagename{
+margin-bottom: 20px;
+padding-left: 20px;
+}
+#upperfullbox{
+display: flex;
+background-color: black;
+}
+#welcometofood{
+text-align: center;
+font-size: 60px;
+margin-bottom: 7px;
+}
+#belowwelcometofood{
+text-align: center;
+font-size: 60px;
+margin-top: 0%;
+padding: 0%;
+}
+#searchbarforhomepage{
+height: 40px;
+width: 40%;
+background-color: aliceblue;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 20px;
+border-radius: 10.5px;
+border-color: black;
+padding-left: 1%;
+margin-left: 30%;
+}
+#paraofthehome{
+color: aliceblue;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-left: 10%;
+margin-right: 10%;
+}
+
+#lowerimagehomepage{
+height: 500px;
+width: 80%;
+margin-left: 120px;
+border-radius: 15px;
+}
+
+.container {
+  position: relative;       /* make this the reference */
+  display: inline-block;    /* so the container wraps image */
+  width: 100%;
+}
+
+.container img {
+  display: block;           /* removes bottom gap */
+  width: 100%;              /* optional: make image full width */
+  height: auto;
+}
+
+.quote {
+  position: absolute;        /* position relative to container */
+  top: 50%;                  /* move to middle */
+  left: 50%;
+  transform: translate(-50%, -50%); /* center it */
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  background: rgba(0,0,0,0.5); /* optional: dark background for readability */
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.buttonforbrowsing{
+height: 50px;
+width: 10%;
+background-color: rgb(255, 115, 0);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 20px;
+
+position: absolute;        /* position relative to container */
+  top: 70%;                  /* move to middle */
+  left: 50%;
+  transform: translate(-50%, -50%); /* center it */
+  
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+ /* optional: dark background for readability */
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  color: aliceblue;
+}
+.buttonforbrowsing a{
+color: aliceblue;
+text-decoration: none;
+}
+#contacttag{
+text-align: center;
+font-size: 60px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#whitelowercontactpage{
+background-color: aliceblue;
+color: rgb(149, 245, 4);
+height: 400px;
+margin-top: 20px;
+padding-bottom: 0px;
+}
+#contactinfoheader{
+text-align: center;
+font-size: 60px;
+}
+
+#recipefilebox{
+height: 40px;
+width: 20%;
+
+}
+#recipepagewelcome{
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 70px;
+text-align: center;
+}
+
+#recipepagedescription{
+margin-left: 10%;
+margin-right: 10%;
+}
+#desertimage{
+height: 150PX;
+width: 70%;
+border-color: black;
+border-width: 10px;
+margin-left: 10%;
+}
+#therecipedisplaysection{
+background-color: aliceblue;
+height: auto;
+width: 80%;
+margin-left: 8.5%;
+border: none;
+color: black;
+}
+#therecipedisplaysectionPara{
+margin-left: 20px;
+margin-right: 20px;
+
+}
+#headingIntheanswerbox{
+text-align: center;
+}
+#therecipedisplaysection{
+background-color: black;
+color: aliceblue;
+border-radius: 15px
+}
+
+.lowerfont{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 20px;
+color: greenyellow;
+text-align: block;
+}
+#headingIntheanswerbox{
+text-align: center;
+font-size: 50px;
+}
+#foodlowerimage{
+margin-left: 350px;
+height: 300px;
+width: 40%;
+border: none;
+
+}
+#therecipedisplaysectionPara{
+margin-left: 20px;
+margin-right: 20px;
+}
+#VisualTutorial{
+margin-left: 400px;
+padding-top: 20px;
+}
+#tutorialbutton{
+height: 40px;
+width: 15%;
+background-color: rgb(0, 115, 255);
+border: none;
+border-radius: 10px;
+color: aliceblue;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-left: 80%;
+}
+#tutorialbuttonimage{
+text-decoration: none;
+color: aliceblue;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
